@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@*<style>
+        div {
+            border: 2px solid;
+            padding: 20px;
+            width: 250px;
+            height: 250px;
+        }
+    </style>*@
+
+@*<div class="panel panel-default">
+        @foreach (var item in ViewBag.items)
+        {
+            <div class="panel-heading">@item.Name</div>
+            <div class="panel-body">
+                @item.Description<br />
+                <label>Quantity: </label>@item.Quantity<br />
+                <label>Price: </label>@item.Price
+            </div>
+
+        }
+    </div>*@
+
+
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        @foreach (var item in ViewBag.items)
+        {
+            <div class="panel-heading">@item.Name</div>
+            <div class="panel-body">
+                @item.Description<br />
+                <label>Quantity: </label>@item.Quantity<br />
+                <label>Price: </label>@item.Price
+            </div>
+        }
+
+    </div>
+</div>
