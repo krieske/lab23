@@ -4,13 +4,24 @@
     <Key>
       <PropertyRef Name="itemID" />
     </Key>
-    <Property Name="itemID" Type="int" Nullable="false" />
+    <Property Name="itemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nvarchar" MaxLength="500" Nullable="false" />
     <Property Name="Description" Type="nvarchar" MaxLength="2000" Nullable="false" />
     <Property Name="Quantity" Type="smallint" Nullable="false" />
     <Property Name="Price" Type="float" Nullable="false" />
   </EntityType>
+  <EntityType Name="newuser">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="lastname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="emailaddress" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="phonenumber" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
   <EntityContainer Name="lab23ModelStoreContainer">
     <EntitySet Name="items" EntityType="Self.items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="newuser" EntityType="Self.newuser" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

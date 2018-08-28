@@ -12,7 +12,7 @@ namespace Lab23.Controllers
         public ActionResult Index()
         {
             lab23Entities ORM = new lab23Entities();
-            ViewBag.items = ORM.items.ToList();
+            ViewBag.Items = ORM.items.ToList();
 
             return View();
         }
@@ -29,6 +29,25 @@ namespace Lab23.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult NewUser()
+        {
+            return View();
+        }
+
+        public ActionResult SaveNewUser(newuser newUser)
+        {
+            lab23Entities ORM = new lab23Entities();
+
+            //To Do: Validation!
+
+            ORM.newusers.Add(newUser);
+
+            ORM.SaveChanges();
+            return RedirectToAction("Index");
+
+
         }
     }
 }

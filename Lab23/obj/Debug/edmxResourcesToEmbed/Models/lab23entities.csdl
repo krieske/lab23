@@ -12,5 +12,16 @@
   </EntityType>
   <EntityContainer Name="lab23Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="items" EntityType="Self.item" />
+    <EntitySet Name="newusers" EntityType="lab23Model.newuser" />
   </EntityContainer>
+  <EntityType Name="newuser">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="emailaddress" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="phonenumber" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
 </Schema>

@@ -26,5 +26,6 @@ namespace Lab23.Models
         }
     
         public virtual DbSet<item> items { get; set; }
+        public virtual DbSet<newuser> newusers { get; set; }
     }
 }

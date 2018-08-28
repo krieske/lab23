@@ -18,16 +18,13 @@ C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\Microsoft.
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.AppContext.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Collections.Immutable.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Console.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Diagnostics.StackTrace.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.IO.Compression.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.IO.Pipes.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Reflection.Metadata.dll
@@ -39,7 +36,6 @@ C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Sec
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Security.Principal.Windows.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Threading.Thread.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.ValueTuple.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Xml.ReaderWriter.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.Xml.XmlDocument.dll
@@ -95,3 +91,8 @@ C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\obj\Debug\Lab23.cspro
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\obj\Debug\Lab23.csproj.CopyComplete
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\obj\Debug\Lab23.dll
 C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\obj\Debug\Lab23.pdb
+C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kristen\source\repos\C# Practice Labs\Lab23\Lab23\bin\Microsoft.ApplicationInsights.xml
