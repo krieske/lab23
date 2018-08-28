@@ -1,21 +1,20 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+ViewBag.Title = "Home Page";
 }
 
-
-
-<div class="panel panel-group">
-    <div class="panel panel-default">
-        @*<div class="panel panel-heading">Shop</div>*@
-    </div>
-        @foreach (var item in ViewBag.Items)
-        {
-            <div class="panel panel-default col-lg-3">
-                <p>@item.Name</p>
-                <p><img src="@item.image"/></p>
+<div class="row">
+    @foreach (var item in ViewBag.items)
+    {
+    <div class="card">
+        <img class="card-img-top" src="@item.image" alt="Card image">
+        <div class="card-body">
+            <div class="card-title">@item.Name</div>
+            <div class="card-text">
                 <p>@item.Description</p>
                 <p>@item.Quantity</p>
                 <p>@item.Price</p>
             </div>
-        }
+        </div>
     </div>
+    }
+</div>
